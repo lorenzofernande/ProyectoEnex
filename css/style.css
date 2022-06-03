@@ -7,38 +7,39 @@ html{
     font-size: 62.5%;}
 
 #grilla{
-    display: none;
     display: grid;
-    grid-template-columns: 40% 10% 5% 45%;
-    grid-template-rows: 3% 37% 29% 23%;
+    grid-template-columns: 100%;
+    grid-template-rows: 9% 37% 29% 23%;
     grid-template-areas: 
     "header header header header"
     "nav nav nav nav"
     "main main main main"
     "aside aside aside section"
     "pie pie pie pie";
+ 
 }
 header{
     grid-area: header;
-    text-align:right;
+    
+}
+.navbar-Modificado{
+    text-decoration: none;
+    font-size: 51px;
+    color: orange;
+}
+.navBar-Cacmbiado{
+   flex-direction: row;
+  
+}
+.link-Nuevo{
+    padding: 15px;
     font-size: 20px;
-    background-color: white;
-    margin: 7px;
-}
-ul li {
-    display: inline-block;
-    margin: 5px;
-}
-
-a{
-    padding: 10px;
-    color: rgb(233, 0, 0);
-    margin: 5px 10px;
+    color: red;
     text-decoration: none;
     font-weight: bold;
     font-family: 'Rubik',sans-serif;
-
 }
+
 .subtitulo{
     color: white;
     font-weight:bolder;
@@ -79,7 +80,10 @@ h2{
 }
 
 
-
+.simplificamos{
+    background-color: white;
+    background-image: none;
+}
 nav{
     
     background-color: #7f5a83;
